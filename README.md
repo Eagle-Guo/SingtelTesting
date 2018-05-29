@@ -21,4 +21,8 @@
    #### Q. Can you think of other ways to model a rooster without using inheritance?
    A. Rooster is one kinds of chicken. So we can define the Chicken interface and Rooster and Hen implement this interface method
    
-  
+## 4. Can you model a parrot? 
+  #### Q. We are specifically interested in three parrots, one that lived in a house with dogs one in a house with cats, the other lived on a farm next to the rooster.
+   A. Use the factory design pattern, differnt parameter return different sing.
+   #### Q. How do you keep the parrot maintainable? What if we need another parrot lives near a Duck? Or near a phone that rings frequently?
+   A. Update the factory class to return different method
