@@ -12,3 +12,13 @@
   A. Override the the sing method for chicken and Duck
   #### Q. A chicken cannot fly
   A. Use the @Deprecated to highlight this method is Deprecated. And return the exception when call this method.
+
+## 3. Now how would you model a rooster?
+   #### Q. A rooster says: “Cock-a-doodle-doo”
+   A. Override the the sing method for rooster
+   #### Q. How is the rooster related to the chicken?
+   A. Rooster is the child of the chicken. So can extend the Rooster from chicken.
+   #### Q. Can you think of other ways to model a rooster without using inheritance?
+   A. Rooster is one kinds of chicken. So we can define the Chicken interface and Rooster and Hen implement this interface method
+   
+  
