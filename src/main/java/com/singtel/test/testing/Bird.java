@@ -1,7 +1,7 @@
 package com.singtel.test.testing;
 
 class Bird extends Animal {
-	public void fly() {
+	public void fly() throws Exception {
 		System.out.println("I am flying");
 	}
 	

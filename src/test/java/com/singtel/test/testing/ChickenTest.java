@@ -8,12 +8,14 @@ import static org.junit.Assert.assertEquals;
  */
 public class ChickenTest{
 	
-    @Test
-    public void testRooster()  {
-    	Chicken chicken = new Rooster();
+	@Test(expected = UnsupportedOperationException.class)
+    public void testRooster() {
+		Rooster chicken = new Rooster();
     	System.out.println("RoosterTest");
     	String sing = "Cock-a-doodle-doo";
     	assertEquals( chicken.sing(), sing );
+    	chicken.fly();
+    	
     }
     
     @Test
